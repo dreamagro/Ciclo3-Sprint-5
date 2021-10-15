@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="estilos.css">
+
+    <script src="login.js"></script>
+    
+</head>
+<body>
+
+    <header>
+        <div id="principal">
+         <h2>Registro</h2>
+        </div>
+
+    </header>
+    
+    <div id="contacto" class="contacto">
+       
+        <form id="form-login" class="form-registro">
+            
+                <div class="contenedor-campos">
+                    <div class="campo w-100">
+                        <label >Correo</label>
+                        <input id="correo" type="email" name="correo" placeholder="e-mail" required>
+                    </div>
+                    <div class="campo w-100">
+                        <label >Contraseña</label>
+                        <input id="contrasena" type="password" name="contrasena" placeholder="Contraseña" required>
+                    </div>
+                    <div class="campo w-100">
+                        <label >¿Qué resultado da el cuarto de un tercio de 12000?</label>
+                        <input id="captcha" type="text" name="captcha" placeholder="captcha" required>
+                    </div>
+                    <div class="enviar">
+                        <input id="btn-submit-form" type="button"  onclick="login()" value="Registrar">
+                    </div>
+                </div>
+        </form>
+    </div> 
+
+</body>
+
+</html>
